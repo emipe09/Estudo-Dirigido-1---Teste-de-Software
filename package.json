@@ -1,0 +1,21 @@
+{
+  "name": "estudo-dirigido-teste-unidade",
+  "version": "1.0.0",
+  "description": "Ambiente para testes unitarios em JavaScript com Jest do programa SortedSubsequence.",
+  "main": "SortedSubsequence3.js",
+  "scripts": {
+    "start": "node SortedSubsequence3.js",
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage --passWithNoTests"
+  },
+  "keywords": [
+    "jest",
+    "teste-unitario",
+    "sorted-subsequence"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}

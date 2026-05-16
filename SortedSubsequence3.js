@@ -34,7 +34,11 @@ function main() {
 
     let res = find3Numbers(arr);
 
-        console.log(res.join(" "));
+    console.log(res.join(" "));
 }
 
-main();
+if (require.main === module) {
+    main();
+}
+
+module.exports = find3Numbers;
