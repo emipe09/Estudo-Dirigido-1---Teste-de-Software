@@ -20,9 +20,9 @@ Saida esperada:
 
 ## Objetivo da atividade
 
-De acordo com o enunciado do estudo dirigido, o grupo deve implementar no minimo 10 testes de unidade para o programa **SortedSubsequence**, utilizando **JavaScript** e **Jest**. Os testes devem contemplar cenarios diferentes, como entradas vazias, arrays com poucos elementos, valores limites e casos com ou sem subsequencia crescente.
+Implementar no minimo 10 testes de unidade para o programa **SortedSubsequence**, utilizando **JavaScript** e **Jest**. Os testes devem contemplar cenarios diferentes, como entradas vazias, arrays com poucos elementos, valores limites e casos com ou sem subsequencia crescente.
 
-Este repositorio esta preparado apenas com o ambiente de testes. Nenhum teste foi implementado ainda.
+Este repositorio esta preparado apenas com o ambiente de testes.
 
 ## Requisitos
 
