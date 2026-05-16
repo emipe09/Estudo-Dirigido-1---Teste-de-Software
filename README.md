@@ -61,38 +61,3 @@ Depois que os testes forem criados, execute:
 ```bash
 npm test
 ```
-
-Para executar os testes com relatorio de cobertura:
-
-```bash
-npm run test:coverage
-```
-
-O relatorio de cobertura sera gerado na pasta `coverage/`.
-
-## Estrutura sugerida para os testes
-
-Crie os testes em um arquivo com sufixo `.test.js`, por exemplo:
-
-```text
-SortedSubsequence3.test.js
-```
-
-O arquivo de teste podera importar a funcao assim:
-
-```js
-const find3Numbers = require("./SortedSubsequence3");
-```
-
-## Entregaveis esperados
-
-Conforme o PDF da atividade, a entrega final deve conter:
-
-- Codigo do programa.
-- Codigo dos testes unitarios implementados em Jest.
-- Relatorio com instrucoes de instalacao, configuracao e execucao.
-- Screenshots das etapas realizadas.
-- Informacoes sobre a cobertura dos testes.
-- Arquivo `.ZIP` nomeado como `EstudoDirigido1Grupo<numero>`.
-
-Prazo informado no enunciado: **18/05/2026 as 23:50**.
