@@ -61,3 +61,11 @@ Depois que os testes forem criados, execute:
 ```bash
 npm test
 ```
+
+## Execucao do relatório de cobertura 
+
+Para verificar o relatório de cobertura de testes, execute:
+
+```bash
+npm run test:coverage
+```
