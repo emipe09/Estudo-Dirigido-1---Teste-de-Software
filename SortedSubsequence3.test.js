@@ -16,3 +16,26 @@ test("retorna um array vazio, quando os elementos forem todos iguais", () => {
   expect(find3Numbers([4, 4, 4, 4])).toEqual([]);
 });
 
+test("retorna array vazio para entrada vazia", () => {
+  expect(find3Numbers([])).toEqual([]);
+});
+
+test("retorna array vazio para arrays menores que 3 elementos", () => {
+  expect(find3Numbers([1, 2])).toEqual([]);
+});
+
+test("funciona com numeros negativos", () => {
+  expect(find3Numbers([-5, -4, -3])).toEqual([-5, -4, -3]);
+});
+
+test("encontra subsequencia crescente no inicio", () => {
+  expect(find3Numbers([1, 2, 3, 0])).toEqual([1, 2, 3]);
+});
+
+test("encontra subsequencia crescente no final", () => {
+  expect(find3Numbers([9, 8, 1, 2, 3])).toEqual([1, 2, 3]);
+});
+
+test("funciona com elementos duplicados misturados", () => {
+  expect(find3Numbers([1, 1, 2, 2, 3])).toEqual([1, 2, 3]);
+});
