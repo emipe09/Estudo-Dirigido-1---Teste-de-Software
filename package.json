@@ -17,5 +17,11 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.0.0"
+  },
+
+  "jest": {
+    "collectCoverageFrom": ["SortedSubsequence3.js"],
+    "coverageReporters": ["text", "lcov", "html"]
   }
+
 }
